@@ -1,0 +1,483 @@
+body{
+  font: 15px/1.5 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  text-align: center;
+  color: #333;
+}
+
+h2{
+    font-family: 'Vibur', serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
+/* Navigation */
+.container-1{
+  padding-top: 40px;
+  padding-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  background: #D0DACC;
+  border: 0px red solid;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 414px){
+    .container-1{
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: -20px;
+        font-size: 21px;
+    }
+    
+    .container-1 a{
+        background-color: #e7ece5;
+        padding: 10xp 50px;
+        width: 100px;
+    }
+    
+    
+    .box-1-1, .box-1-2, .box-1-3, .box-1-4{
+        margin: 15px 0px;
+    }
+}
+
+.container-1 a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+  padding: 15px 38px;
+}
+
+.container-1 a:hover{
+  background-color: #e7ece5;
+  transition: 0.5s;
+}
+
+.container-1 .current a {
+  background-color: #a6aea3;
+}
+
+.box-1-1{
+  padding: 5px;
+  border: 0px red solid;
+}
+
+.box-1-2{
+  padding: 5px;
+  border: 0px red solid;
+}
+
+.box-1-3{
+  padding: 5px;
+  border: 0px red solid;
+}
+
+.box-1-4{
+  padding: 5px;
+  border: 0px red solid;
+}
+
+
+
+/* Header */
+.container-2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 500px;
+  background: #D0DACC;
+  border: 0px red solid;
+}
+
+@media only screen and (max-width: 414px){
+    .container-2{
+        height:870px;
+    }
+}
+
+.box-2-1{
+  width: auto;
+  padding: 20px;
+  border: 0px red solid;
+  margin-right: 40px;
+}
+
+@media only screen and (max-width: 414px){
+    .box-2-1{
+        margin-right: 0px;
+        margin-bottom: -30px;
+        padding-bottom: 0px;
+    }
+}
+
+#susanne{
+  font-size: 70px;
+  line-height: 0.4;
+  font-family: 'Vibur', serif;
+  font-weight: 400;
+}
+
+#stee{
+  font-size: 95px;
+  line-height: 0.2;
+  font-family: 'Vibur', serif;
+  font-weight: 400;
+}
+
+.box-2-1 p{
+  font-size: 17px;
+    line-height: 1.6;
+}
+
+.box-2-2{
+  width: auto;
+  padding: 20px;
+  border: 0px red solid;
+  background: #D0DACC;
+}
+
+.box-2-2 img{
+  /*height: 450px;*/
+    width: 290px;
+}
+
+
+
+/* Hei */
+.container-3{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  border: 0px red solid;
+}
+
+.container-3 h1{
+    font-family: 'Vibur', serif;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.container-3 p{
+    font-size: px;
+}
+
+.box-3-1{
+  padding: 50px;
+  margin: 0px 20px;
+  width: 550px;
+  border: 0px red solid;
+  line-height: 1.4;
+}
+
+@media only screen and (max-width: 414px){
+    .box-3-1{
+        padding: 35px;
+    }
+}
+
+
+/* Arbeidserfaring */
+.container-4{
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  border: 0px red solid;
+}
+
+.box-4-1{
+  padding: 50px 180px;
+  margin: 20px;
+  width: 500px;
+  border: 6px #D0DACC solid;
+}
+
+@media only screen and (max-width: 414px){
+    .container-4{
+      margin-top: -10px;
+    }
+    
+    .box-4-1{
+      padding: 35px;
+    }
+}
+
+.arstall{
+    margin-bottom: -8px;
+    font-size: 14px !important;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.sted{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: -15px
+}
+
+.tittel{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+.container-4 p{
+    font-size: 13.5px;
+}
+
+
+
+/* Ferdigheter */
+.ferdigheter{
+    text-align: center;
+    margin-top: 70px;
+}
+.container-5{
+  margin-top: -14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  border: 0px red solid;
+}
+
+.container-5 img{
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.container-5 h3{
+  text-transform: uppercase;
+}
+
+.container-5 h4{
+  margin-bottom: -10px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.container-5 p{
+  font-size: 14px;
+}
+
+.container-5 a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.container-5 a:hover{
+  color: #a6aea3;
+}
+
+.box-5-1{
+  width: 240px;
+  padding: 40px;
+  margin: 20px;
+  border: 0px #D0DACC solid;
+  background-image: linear-gradient(170deg, #d0dacc, #f5f7f4);
+}
+
+.box-5-2{
+  width: 240px;
+  padding: 40px;
+  margin: 20px;
+  border: 0px #D0DACC solid;
+  align-items: center;
+  background-image: linear-gradient(170deg, #d0dacc, #f5f7f4);
+}
+
+.box-5-3{
+  width: 240px;
+  padding: 40px;
+  margin: 20px;
+  border: 0px #D0DACC solid;
+  align-items: center;
+  background-image: linear-gradient(170deg, #d0dacc, #f5f7f4);
+}
+
+
+
+
+
+/* Last ned min CV */
+.container-6{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  border: 0px red solid;
+}
+
+.container-6-webdesign{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  border: 0px red solid;
+}
+
+.box-6-1{
+  padding: 0px;
+  margin: 20px;
+}
+
+.box-6-1-webdesign{
+  padding: 0px;
+  margin: 20px;
+    margin-top: -60px;
+}
+
+.container-6 a{
+  width: auto;
+  padding: 20px 65px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  background-color: #D0DACC;
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 16px;
+    
+}
+
+.container-6-webdesign a{
+  width: auto;
+  padding: 17px 75px;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  background-color: #D0DACC;
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 16px;
+    
+}
+
+.container-6 a:hover{
+  background-color: #e7ece5;
+  transition: 0.5s;
+}
+
+.container-6-webdesign a:hover{
+  background-color: #e7ece5;
+  transition: 0.5s;
+}
+
+
+
+
+/* Kontakt meg */
+.container-7{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  border: 0px red solid;
+}
+
+.box-7-1{
+  padding: 20px;
+  margin: 20px;
+  width: 800px;
+  border: 6px #D0DACC solid;
+}
+
+input {
+  margin: 9px;
+  padding: 12px;
+  width: 240px;
+}
+
+#emne, #melding{
+  width: 66.35%;
+  min-width: 240px;
+}
+
+button {
+  padding: 20px 70px;
+  margin: 15px;
+  width: 200px;
+  background-color: #D0DACC;
+  border: 0 #000 solid;
+  font-weight: bold;
+  color: #333;
+}
+
+button:hover {
+  background-color: #e7ece5;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 414px){
+    button{
+      width: 266px;
+    }
+}
+
+
+/* Footer */
+.container-8{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  border: 0px red solid;
+}
+
+.box-8-1{
+  width: 100%;
+  padding: 20px;
+  border: 0px red solid;
+  font-size: 13px;
+}
+
+#flaticon{
+  font-size: 9px;
+  color: #999;
+  margin-top: -8px;
+}
+
+#flaticon a{
+  color: #999;
+  text-decoration: none;
+}
+
+
+
+
+
